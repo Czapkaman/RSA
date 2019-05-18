@@ -67,7 +67,7 @@ array<unsigned long int, 2> sito(unsigned long int prime1, unsigned long int pri
 }
 
 array<long int, 3> NWD(unsigned long int a, unsigned long int b, long int x0 = 1, long int x1 = 0, 
-																	long int y0 = 0, long int y1 = 1)
+									long int y0 = 0, long int y1 = 1)
 {
 	unsigned long int temp;
 	temp = a - (a / b) * b;
